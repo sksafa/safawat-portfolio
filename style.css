@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+}
+.nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav ul{}
+.nav ul li{
+    list-style: none;
+    /* display: flex; */
+    display: inline-block;
+    padding: 15px 13px;
+    padding-top: 34px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#3E3E3E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.nav ul li:hover{}
+
+.main{
+    display: flex;
+
+}
+
+
+.head_section{
+    width: 40%;
+    margin-left: 5%;
+}
+.mt80{
+    margin-top: 80px;
+}
+.head_section img{
+    width: 100%;
+    padding-top: 37px;
+}
+.textp2{
+    padding-top: 12px;
+    padding-right: 220px;
+    
+}
+
+.text1{
+    color: #363958;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
+.text2{
+    color: #FF277C;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
+
+.ptext{
+    font-size: 16px;
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 24px;
+    padding-right: 75px;
+    word-spacing: 2px;
+}
+
+.btn1{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+    background-image: linear-gradient(90deg ,#FF277C, #FF5297);
+    padding: 18px 40px;
+    color: #ffff;
+    border-radius: 5px;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+/* latest section */
+
+.latest_section{
+    background-color: #F8F9FC;
+    padding-top: 123px;
+    padding-bottom: 100px;
+}
+.flow{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 23%;
+    /* border: 1px solid grey; */
+    padding: 0px;
+    background: #fff;
+    padding: 21px;
+    margin: 14px;
+    box-shadow: 8px 5px 8px grey;
+    border-radius: 15px;
+}
+.card img{
+    width: 100%;
+}
+.box1{
+
+    height: 216px;
+    width: 66%;
+    background-image: url(images/Group_33094_1.png);
+    margin: auto;
+    border-radius: 26px;
+    background-size: cover;
+    /* background-position: center center; */
+    /* background-repeat: no-repeat; */
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.box1 h1{
+    margin-left: 10%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 64px;
+    display: inline-block;
+    margin-top: 8%;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+}
+.box1 a{
+    float: right;
+    margin-right: 6%;
+    margin-top: 10%;
+}
