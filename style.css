@@ -4,6 +4,8 @@
 }
 .navbar{
     width: 100%;
+
+ 
 }
 .nav{
     width: 80%;
@@ -11,13 +13,14 @@
     display: flex;
     justify-content: flex-end;
 }
-.nav ul{}
 .nav ul li{
     list-style: none;
     /* display: flex; */
     display: inline-block;
     padding: 15px 13px;
-    padding-top: 34px;
+    padding-top: 13px;
+    border: 1px solid transparent;
+    margin-top: 21px;
 }
 .nav ul li a{
     text-decoration: none;
@@ -26,7 +29,10 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-.nav ul li:hover{}
+.nav ul li:hover{
+    color: #FF277C;;
+    border: 1px solid #FF277C;;
+}
 
 .main{
     display: flex;
@@ -37,6 +43,7 @@
 .head_section{
     width: 40%;
     margin-left: 5%;
+    overflow: hidden;
 }
 .mt80{
     margin-top: 80px;
@@ -87,7 +94,9 @@
     margin-top: 35px;
     display: inline-block;
 }
-
+.btn1:hover{
+    background-image: linear-gradient(90deg ,#790433, #b46082);
+}
 /* latest section */
 
 .latest_section{
@@ -122,12 +131,12 @@
     background-size: cover;
     /* background-position: center center; */
     /* background-repeat: no-repeat; */
-    margin-bottom: 200px;
+    margin-bottom: 87px;
     margin-top: 100px;
 }
 
 .box1 h1{
-    margin-left: 10%;
+    margin-left: -27%;
     color: #fff;
     text-transform: uppercase;
     font-size: 64px;
@@ -140,4 +149,83 @@
     float: right;
     margin-right: 6%;
     margin-top: 10%;
+}
+
+.contact{
+    text-align: center;
+    padding-top: 123px;
+    padding-bottom: 134px;
+}
+.box2 h3{
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    color: #696871;
+    font-weight: 100;
+    margin: 11px 0px;
+}
+.box2 a{
+    text-decoration: none;
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+.box3 a img{
+    height: 45px;
+    width: 45px;
+    margin: 17px 13px;
+}
+.box3 a img:hover{
+    opacity: 0.5;
+}
+
+.skill_section{
+    margin-left: 10%;
+    display: flex;
+    padding-top: 123px;
+    padding-bottom: 100px;
+}
+
+.left_skill{
+    width: 40%;
+}
+.right_skill{
+    width: 40%;
+}
+.skill1{
+    margin-bottom: 12px;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    font-size: 16px;
+    color: #363958;
+}
+.skill1 p{
+    margin-bottom: 6px;
+}
+.skill_bg{
+    background-color: #363958;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 10px;
+}
+.skil_percent{
+    background-image: linear-gradient(90deg ,#FF277C, #FF5297);
+    position: absolute;
+    height: 20px;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+}
+.skil_percent p{
+    color: #fff;
+}
+.width2{
+    width: 70% !important;
+    text-align: center;
+}
+
+.width3{
+    width: 40% !important;
+    text-align: center;
 }

@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
 <body>
 
@@ -17,10 +18,11 @@
     <div class="navbar"> 
        <div class="nav">
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#work">Work</a></li>
             <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
        </div>
     </div>
@@ -30,7 +32,7 @@
     <section class="main">
         <div class="head_section">
             <h1 class="text1 mt80" >Hello, I'm </h1>
-            <h1 class="text2">Safawat Hossain </h1>
+            <h1 class="text2" style="margin-top: -26px;" >Safawat Hossain </h1>
             <p class="ptext textp2">A full stack allaround designer that placerat
                 in massa consectetur</p>
             <a class="btn1" href="#">Hire Me</a>
@@ -42,7 +44,7 @@
 
 <!--  about section   -->
 
-    <section class="main" style="margin-top: 100px;">
+    <section id="about" class="main" style="margin-top: 100px;">
         <div class="head_section">
             <img src="images/jj.png" alt="">
         </div>
@@ -53,13 +55,52 @@
                 standard dummy text ever since the 1500s, when an unknown
                 printer took a galley of type and scrambled it to make a type
                 specimen book.</p>
-            <a class="btn1" href="#">Download CV</a>
+            <a class="btn1" href="#"><i class="fas fa-download"></i> &nbsp; &nbsp; Download CV</a>
         </div>
     </section>
 
+<!--  skill section   -->
+<section id="skill" class="skill_section">   
+    <div class="left_skill">
+       <h1 class="text1"><span  class="text2">MY</span> SKILL</h1>
+        <p  class="ptext">Here Is Some Information About My Skill In Various Area </p>
+    </div>
+    <div class="right_skill">
+       <div class="skill1">
+           <p>Html5</p>
+           <div class="skill_bg">
+               <div class="skil_percent ">
+                   <p>90%</p>
+               </div>
+           </div>
+       </div>
+
+       <div class="skill1">
+        <p>Css3</p>
+        <div class="skill_bg">
+            <div class="skil_percent width2">
+                <p>70%</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill1">
+        <p>Javascript</p>
+        <div class="skill_bg">
+            <div class="skil_percent width3">
+                <p>40%</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>   
+
+
+
+
 <!--  latest section   -->
 
-    <section class="latest_section">
+    <section id="work" class="latest_section">
         <h1 class="text1" style="text-align: center; font-size: 48px; margin-bottom: 90px;"><span style="font-size: 48px;"  class="text2">LASTET</span>  WORKING PROJECT</h1>
         <div class="flow">
             <div class="card">
@@ -71,26 +112,34 @@
        
             <div class="card">
                <img src="images/image 8.png" alt="">
-               <h2 style="font-size: 24px; margin-bottom: 20px; margin-top: 10px;" class="text1">Power-x-gym (gym website)</h2>
+               <h2 style="font-size: 24px; margin-bottom: 20px; margin-top: 10px;" class="text1">Creative Agency</h2>
                <p class="ptext" style="padding-right:0;">Lorem Ipsum is simply dummy text of the 
                   printing and typesetting industry.</p>
            </div>      
            <div class="card">
                <img src="images/image 5.png" alt="">
-               <h2 style="font-size: 24px; margin-bottom: 20px; margin-top: 10px;" class="text1">Power-x-gym (gym website)</h2>
-               <p class="ptext" style="padding-right:0;"  >Lorem Ipsum is simply dummy text of the 
-                  printing and typesetting industry.</p>
+               <h2 style="font-size: 24px; margin-bottom: 20px; margin-top: 10px;" class="text1">Hard Rock Music</h2>
+               <p class="ptext" style="padding-right:0;"  >Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
            </div>
         </div>  
     </section>   
 
 
-<!--  latest section   -->
+<!--  contact section   -->
 
-<section class="contact">
+<section id="contact" class="contact">
     <div class="box1">
         <h1>Work Inquiry</h1>
         <a class="btn1" href="#">Let’s Chat</a>
+    </div>
+    <div class="box2">
+        <h3>Stay connected</h3>
+        <a href="#"><h2>hello@design.com</h2></a>
+    </div>
+    <div class="box3">
+        <a href="#"><img src="icons/image 6.png" alt=""></a>
+        <a href="#"><img src="icons/Group 33059.png" alt=""></a>
+        <a href="#"><img src="icons/image 7.png" alt=""></a>
     </div>
 </section>
 
